@@ -2,7 +2,7 @@ import SectionHeading from './SectionHeading'
 import Reveal from './Reveal'
 import { skills } from '../data/portfolioData'
 import { FaCode, FaDatabase } from 'react-icons/fa'
-import { SiCss, SiFirebase, SiHtml5, SiJavascript, SiMongodb, SiNodedotjs, SiPostman, SiReact, SiTailwindcss } from 'react-icons/si'
+import { SiCss, SiExpress, SiFirebase, SiGit, SiGithub, SiHtml5, SiJavascript, SiJsonwebtokens, SiMongodb, SiNodedotjs, SiPostman, SiReact, SiTailwindcss } from 'react-icons/si'
 
 const skillIcons = {
   'HTML & CSS': <><SiHtml5 /><SiCss /></>,
@@ -10,11 +10,15 @@ const skillIcons = {
   React: <SiReact />,
   'Tailwind CSS': <SiTailwindcss />,
   'Node.js': <SiNodedotjs />,
+  'Express.js': <SiExpress />,
+  JWT: <SiJsonwebtokens />,
   'REST APIs': <FaCode />,
   Postman: <SiPostman />,
   MongoDB: <SiMongodb />,
   Firebase: <SiFirebase />,
   'Database Design': <FaDatabase />,
+  Git: <SiGit />,
+  GitHub: <SiGithub />,
 }
 
 export default function Skills() {

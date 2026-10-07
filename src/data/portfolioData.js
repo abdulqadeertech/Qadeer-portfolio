@@ -10,11 +10,12 @@ export const profile = {
 }
 export const nav = [['Home','#home'],['About','#about'],['Skills','#skills'],['Projects','#projects'],['Experience','#experience'],['Education','#education'],['Contact','#contact']]
 export const marquee = ['HTML & CSS','JavaScript','React','Tailwind CSS','Node.js','MongoDB','Firebase','Postman']
-export const stats = [['2','Project areas'],['2','Qualifications'],['10','Core technologies'],['Balochistan','Based in']]
+export const stats = [['2','Project areas'],['2','Qualifications'],['14','Core technologies'],['Balochistan','Based in']]
 export const skills = {
   Frontend: [['HTML & CSS','Modern, responsive website layouts'],['JavaScript','Interactive web experiences'],['React','Reusable component-based interfaces'],['Tailwind CSS','Responsive utility-first styling']],
-  Backend: [['Node.js','Server-side JavaScript development'],['REST APIs','Building and connecting application endpoints'],['Postman','Testing API requests and responses']],
+  Backend: [['Node.js','Server-side JavaScript development'],['Express.js','Building web servers and REST APIs'],['JWT','Token-based authentication'],['REST APIs','Building and connecting application endpoints'],['Postman','Testing API requests and responses']],
   Databases: [['MongoDB','Working with document-based data'],['Firebase','Using Firebase services for app data'],['Database Design','Organizing application data and relationships']],
+  'Tools & Version Control': [['Git','Tracking code changes and collaborating'],['GitHub','Hosting and managing code repositories']],
 }
 export const services = [
   ['Web Development','Modern responsive websites and web applications.'],
