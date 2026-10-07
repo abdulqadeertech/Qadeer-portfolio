@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Reveal from './Reveal'
-import Socials from './Socials'
 import { profile } from '../data/portfolioData'
 const rules = {
   name: v => v.trim().length < 2 && 'Please enter your name.',
@@ -32,7 +31,6 @@ export default function Contact() {
             <li><span>Phone</span><a className="ulink" href={`tel:${profile.phone}`}>{profile.phone}</a></li>
             <li><span>Location</span>{profile.location}</li>
           </ul>
-          <Socials className="light" />
         </Reveal>
         <Reveal as="form" className="form" onSubmit={submit} noValidate>
           {[['name', 'Name', 'text'], ['email', 'Email', 'email'], ['subject', 'Subject', 'text']].map(([k, l, t]) => (

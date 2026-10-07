@@ -11,7 +11,8 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 export default function App() {
   return (
-    <>
+    <> 
+    
       <a className="skip" href="#main">Skip to content</a>
       <Navbar />
       <main id="main">
