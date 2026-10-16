@@ -27,7 +27,7 @@ export const services = [
 ]
 export const projects = [
   { id:'academypro', title:'AcademyPro', kind:'Full Stack', desc:'An offline-ready academy management platform for students, attendance, fees, staff, classes, exams and reports.', tech:['React.js','Node.js','Express.js','MongoDB'], links:{live:'',github:'',caseStudy:''} },
-  { id:'student-api', title:'Student REST API', kind:'Backend', desc:'A backend API for student management: create, read, update and delete records, backed by MongoDB and a clean REST structure.', tech:['Node.js','Express.js','MongoDB','Mongoose'], links:{live:'',github:'',caseStudy:''} },
+  { id:'smarthcm', title:'SmartHCM Cloud', kind:'Full Stack', desc:'An enterprise Human Capital Management portal unifying employee records, biometric attendance, payroll processing, and approval workflows.', tech:['React.js','Node.js','Express.js','MongoDB','Tailwind CSS'], links:{live:'https://shcm-f.vercel.app/portal',github:'',caseStudy:''} },
   { id:'islamic-library', title:'Islamic Digital Library', kind:'Full Stack', desc:'A modern digital library for Islamic books and resources, built to be easy to browse and easy to grow.', tech:['React.js','Node.js','Express.js','MongoDB'], links:{live:'',github:'',caseStudy:''} },
 ]
 export const experience = [
