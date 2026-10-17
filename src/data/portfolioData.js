@@ -6,7 +6,7 @@ export const profile = {
   whatsapp: 'https://wa.me/923273726496',
   location: 'Balochistan, Pakistan',
   email: 'abdulqadeermh290786raza@gmail.com',
-  github: '', linkedin: '', fiverr: '', // add full URLs
+  github: 'https://github.com/abdulqadeertech', linkedin: 'https://www.linkedin.com/in/abdul-qadeer-1045a9397/', fiverr: '', // add full URLs
 }
 export const nav = [['Home','#home'],['About','#about'],['Skills','#skills'],['Projects','#projects'],['Experience','#experience'],['Education','#education'],['Contact','#contact']]
 export const marquee = ['HTML & CSS','JavaScript','React','Tailwind CSS','Node.js','MongoDB','Firebase','Postman']
